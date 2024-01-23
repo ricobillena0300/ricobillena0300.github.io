@@ -1,0 +1,125 @@
+/* Typography */
+@font-face {
+    font-family: 'JohnSansText';
+    src: url('../font/johnsanstext-webfont.eot');
+    src: url('../font/johnsanstext-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/johnsanstext-webfont.woff') format('woff'),
+         url('../font/johnsanstext-webfont.ttf') format('truetype'),
+         url('../font/johnsanstext-webfont.svg#JohnSansText') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'JohnSansTextBold';
+    src: url('../font/johnsanstextbold-webfont.eot');
+    src: url('../font/johnsanstextbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/johnsanstextbold-webfont.woff') format('woff'),
+         url('../font/johnsanstextbold-webfont.ttf') format('truetype'),
+         url('../font/johnsanstextbold-webfont.svg#JohnSansTextBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Rockwell';
+	src: url('../font/RockwellStd.eot?') format('eot'), 
+	     url('../font/RockwellStd.otf')  format('opentype'),
+	     url('../font/RockwellStd.woff') format('woff'), 
+	     url('../font/RockwellStd.ttf')  format('truetype'),
+	     url('../font/RockwellStd.svg#Rockwell') format('svg');
+}
+
+body{
+    font-family:'JohnSansText', helvetica, verdana;
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Rockwell', sans-serif ;font-weight:300;color:#222;}
+h1{font-size:40px;line-height:48px;margin:0 0 20px 0}
+h2{font-size:34px;line-height:42px;margin:0 0 20px 0}
+h3{font-size:28px;line-height:36px;margin:0 0 15px 0}
+h4{font-size:24px;line-height:28px;margin:0 0 15px 0}
+h5{font-size:20px;line-height:28px;margin:0 0 10px 0}
+h6{font-size:20px;line-height:28px;margin:0 0 10px 0}
+@media only screen and (max-width: 600px) {
+h1{font-size:30px;line-height:38px}
+h2{font-size:28px;line-height:36px}
+h3{font-size:26px;line-height:32px}
+}
+/* Post Title */
+.hentry .ft-ptitle{font-size:18px;line-height:24px}
+.hentry .ft-ptitle a{color:#222;text-decoration:none}
+.hentry .ft-ptitle a:hover{text-decoration:underline}
+.hentry.big .ft-ptitle {font-size:24px;line-height:30px}
+/* Single Post & Page Title */
+.hentry.single .ft-ptitle{font-size:50px;line-height:60px}
+@media only screen and (max-width: 600px) {
+.hentry.single .ft-ptitle{font-size:32px;line-height:40px}
+}
+/* Widget Title */
+.widget .widget-title{font-weight:400;font-size:18px;line-height:24px}
+/* Sidebar Post Title */
+.ft-wpost .post-title{font-family:'Roboto',sans-serif;font-size:18px;line-height:24px}
+/* Footer Widget Title */
+#footer .widget .widget-title{font-size:16px}
+/* Footer Posts Title */
+.ft-ftpost .ft-ptitle{font-size:18px;line-height:22px}
+/* Archive Post Title */
+.hentry.archive .ft-ptitle{font-size:24px;line-height:30px}
+/* Footer Posts Color */
+.ft-fimg-shadow {
+    background-size:100% 100%;
+    /*-webkit-box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.8) inset;
+    -moz-box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.8) inset;
+    box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.8) inset;*/
+    height:100%;
+    left:0;
+    opacity:.8;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:99
+}
+.ft-fimg-shadow.shadow-1 {
+    background-color:#17CA9D;
+    /*background-image:-webkit-gradient(linear, left top, right bottom, from(#d38312), to(#dc4225));
+    background-image:-webkit-linear-gradient(to right bottom, #d38312, #dc4225);
+    background-image:-moz-linear-gradient(to right bottom, #d38312, #dc4225);
+    background-image:linear-gradient(to right bottom, #d38312, #dc4225)*/
+}
+.ft-fimg-shadow.shadow-2 {
+    background-color:#2DB1B8;
+    /*background-image:-webkit-gradient(linear, left top, right bottom, from(#150364), to(#dc4225));
+    background-image:-webkit-linear-gradient(to bottom right, #150364, #dc4225);
+    background-image:-moz-linear-gradient(to bottom right, #150364, #dc4225);
+    background-image:linear-gradient(to bottom right, #150364, #dc4225)*/
+}
+.ft-fimg-shadow.shadow-3 {
+    background-color:#E8829B;
+    /*background-image:-webkit-gradient(linear, left top, right bottom, from(#417711), to(#002f4b));
+    background-image:-webkit-linear-gradient(to right bottom, #417711, #002f4b);
+    background-image:-moz-linear-gradient(to right bottom, #417711, #002f4b);
+    background-image:linear-gradient(to right bottom, #417711, #002f4b)*/
+}
+.ft-fimg-shadow.shadow-4 {
+    background-color:#D0C295;
+    /*background-image:-webkit-gradient(linear, left top, right bottom, from(#dc4225), to(#d38312));
+    background-image:-webkit-linear-gradient(to right bottom, #dc4225, #d38312);
+    background-image:-moz-linear-gradient(to right bottom, #dc4225, #d38312);
+    background-image:linear-gradient(to right bottom, #dc4225, #d38312)*/
+}
+.ft-fimg-shadow.shadow-5 {
+    background-color:#955769;
+    /*background-image:-webkit-gradient(linear, left top, right bottom, from(#dc4225), to(#150364));
+    background-image:-webkit-linear-gradient(to bottom right, #dc4225, #150364);
+    background-image:-moz-linear-gradient(to bottom right, #dc4225, #150364);
+    background-image:linear-gradient(to bottom right, #dc4225, #150364)*/
+}
+.ft-fimg-shadow.shadow-6 {
+    background-color:#666666;                                    
+    /*background-image:-webkit-gradient(linear, left top, right bottom, from(#002f4b), to(#417711));
+    background-image:-webkit-linear-gradient(to right bottom, #002f4b, #417711);
+    background-image:-moz-linear-gradient(to right bottom, #002f4b, #417711);
+    background-image:linear-gradient(to right bottom, #002f4b, #417711)*/
+}
